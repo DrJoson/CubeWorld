@@ -9,11 +9,13 @@ CubeAsset::CubeAsset() {
     ,  0.5, -0.5, 0.5 //2
     ,  0.5,  0.5, 0.5 //3
     // coordinates for right of cube
-    ,  1.0, 0.0, -0.5  //4
-    ,  1.0, 1.0, -0.5 //5
+    ,  0.5, -0.5, -0.5  //4
+    ,  0.5, 0.5, -0.5 //5
     // coordinates for left of cube
-    ,  0.0, 0.0, -0.5 //6
-    ,  0.0, 1.0, -0.5 //7
+    ,  -0.5, -0.5, -0.5 //6
+    ,  -0.5, 0.5, -0.5 //7
+    // the top, bottom and back surfaces of the cube can also
+    // be created using different combinations of these coordinates
 
   };
 
